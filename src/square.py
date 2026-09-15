@@ -9,4 +9,4 @@ class Square:
     
     # FIXME
     def perimeter(self): 
-        return self.side * 2
+        return self.side * 4
