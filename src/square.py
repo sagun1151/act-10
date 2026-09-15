@@ -2,10 +2,10 @@ class Square:
 
     # FIXME
     def __init__(self, side) -> None:
-        pass
-
-    def area(self): 
-        return self.side * self.side 
+        if side <= 0:
+            self.side = 1
+        else:
+            self.side = side
     
     # FIXME
     def perimeter(self): 
